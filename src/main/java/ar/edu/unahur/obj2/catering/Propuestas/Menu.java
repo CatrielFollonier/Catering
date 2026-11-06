@@ -1,8 +1,9 @@
-package ar.edu.unahur.obj2.catering;
+package ar.edu.unahur.obj2.catering.Propuestas;
 
 import java.util.List;
 
 import ar.edu.unahur.obj2.catering.Excepciones.DescuentoInvalidoException;
+import ar.edu.unahur.obj2.catering.Excepciones.PropuestaNoIncluidaException;
 
 import java.util.ArrayList;
 
@@ -60,5 +61,12 @@ public class Menu implements Propuesta {
     @Override
     public String descripcion() {
         return this.nombre;
+    }
+
+    public void eliminarPropuesta(Propuesta propuesta) {
+        if (!this.propuestas.contains(propuesta)) {
+            throw new PropuestaNoIncluidaException("La propuesta no está en el menú");
+        }
+        this.propuestas.remove(propuesta);
     }
 }

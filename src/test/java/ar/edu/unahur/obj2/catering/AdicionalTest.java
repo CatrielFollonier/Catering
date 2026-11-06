@@ -4,6 +4,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
+import ar.edu.unahur.obj2.catering.Decorator.MozosAdicionales;
+import ar.edu.unahur.obj2.catering.Decorator.ServicioNocturno;
+import ar.edu.unahur.obj2.catering.Decorator.VajillaPremium;
+import ar.edu.unahur.obj2.catering.Propuestas.Adicional;
+import ar.edu.unahur.obj2.catering.Propuestas.Menu;
+import ar.edu.unahur.obj2.catering.Propuestas.Servicio;
+
 public class AdicionalTest {
     @Test
     public void dadoUnMenuParrillero_conMozosAdicionales_retornaPrecioConAdicional() {

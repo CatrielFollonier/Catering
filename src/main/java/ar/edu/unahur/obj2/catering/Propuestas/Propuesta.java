@@ -1,4 +1,4 @@
-package ar.edu.unahur.obj2.catering;
+package ar.edu.unahur.obj2.catering.Propuestas;
 
 public interface Propuesta {
     public String descripcion();

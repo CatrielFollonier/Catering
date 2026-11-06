@@ -1,4 +1,7 @@
-package ar.edu.unahur.obj2.catering;
+package ar.edu.unahur.obj2.catering.Decorator;
+
+import ar.edu.unahur.obj2.catering.Propuestas.Adicional;
+import ar.edu.unahur.obj2.catering.Propuestas.Propuesta;
 
 public class MozosAdicionales extends Adicional {
 

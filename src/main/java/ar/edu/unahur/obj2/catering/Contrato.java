@@ -1,5 +1,7 @@
 package ar.edu.unahur.obj2.catering;
 
+import ar.edu.unahur.obj2.catering.Propuestas.Propuesta;
+
 public class Contrato {
     private String nombreCliente;
     private double importe;

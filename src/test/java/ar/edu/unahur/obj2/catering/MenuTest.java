@@ -8,6 +8,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
 import ar.edu.unahur.obj2.catering.Excepciones.DescuentoInvalidoException;
+import ar.edu.unahur.obj2.catering.Propuestas.Menu;
+import ar.edu.unahur.obj2.catering.Propuestas.Servicio;
 
 public class MenuTest {
     @Test 

@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.Test;
 
 import ar.edu.unahur.obj2.catering.Excepciones.PrecioNegativoException;
+import ar.edu.unahur.obj2.catering.Propuestas.Servicio;
 
 public class ServicioTest {
     @Test 

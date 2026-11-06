@@ -1,5 +1,4 @@
-package ar.edu.unahur.obj2.catering;
-
+package ar.edu.unahur.obj2.catering.Propuestas;
 
 public abstract class Adicional implements Propuesta {
 

@@ -4,6 +4,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
+import ar.edu.unahur.obj2.catering.Decorator.MozosAdicionales;
+import ar.edu.unahur.obj2.catering.Propuestas.Menu;
+import ar.edu.unahur.obj2.catering.Propuestas.Propuesta;
+import ar.edu.unahur.obj2.catering.Propuestas.Servicio;
+
 
 public class ContratoTest {
     private Menu crearMenuParrillero() {
